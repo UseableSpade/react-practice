@@ -11,9 +11,6 @@ function LoremIpsumContainer() {
       .then(result => {
         setData(result);
       })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
   }, []);
   
   return <Page data={data} />;
