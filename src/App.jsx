@@ -1,4 +1,5 @@
 import LoremIpsumContainer from './components/LoremIpsumContainer';
+import './App.css';
 
 function App() {
   return (
